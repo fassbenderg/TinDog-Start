@@ -1,5 +1,7 @@
 #title{
-    background-color:firebrick ;
+    background-color:#ff4c68;
+    padding:3% 15%;
+    color: #fff;
 }
 
 body{
@@ -7,9 +9,23 @@ body{
 }
 
 h1{
-    font-family: "Montserrat-Black";
-    font-size: 3rem;
+    font-family: "Montserrat";
+    font-size: 3.5rem;
     line-height: 1.5;
+    font-weight: bold;
 }
 
-#title {background-color:blue;padding:3% 15%;}
+.titleImage {
+    width:60%;
+    transform:rotate(25deg);
+}
+
+/*Navigation Bar */
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+759px; height: 389p
