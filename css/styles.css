@@ -37,13 +37,15 @@ h2{
     position:absolute;
     transform: rotate(25deg);
     right:15%;
+    padding-top: 20px;
 }
 
 .image-container{
 }
 
 .button-download{
-    margin-right: 20px;
+    margin-right: 10px;
+    margin-bottom:10px;
 }
 
 /*Navigation Bar */
@@ -126,4 +128,16 @@ p {
 
 .pricing-column{
     padding: 3% 2%;
+}
+
+@media (max-width:1069px){
+
+    #title {
+        text-align: center;
+    }
+
+    .titleImage{
+        position:static;
+        transform: rotate(0deg);
+    }
 }
