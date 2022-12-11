@@ -10,7 +10,6 @@ body {
 }
 
 h1 {
-    width: 400px;
     font-family: "Montserrat";
     font-size: 2.5rem;
     line-height: 1.5;
@@ -30,14 +29,14 @@ h2{
 }
 
 .title-col{
-    padding-bottom: 100px;
+    position: relative;
 }
 
 .titleImage {
     width: 250px;
-    position:relative;
-    left:20px;
+    position:absolute;
     transform: rotate(25deg);
+    right:15%;
 }
 
 .image-container{
@@ -59,9 +58,7 @@ h2{
 /*Features*/
 #features {
     padding: 7% 5%;
-    z-index:1;
     position:relative;
-    bottom:300px;
     background-color: #fff;
 }
 
@@ -97,8 +94,6 @@ p {
     text-align: center;
     background-color:#ef8172;
     color: #fff;
-    position:relative;
-    bottom:300px;
 }
 
 .testimonial-image{
@@ -108,8 +103,6 @@ p {
 }
 
 #press{
-    position:relative;
-    bottom:300px;
     background-color:#ef8172;
     text-align: center;
     padding-bottom: 3%;
@@ -127,8 +120,6 @@ p {
 /*Pricing section*/
 
 #pricing{
-    position:relative;
-    bottom:300px;
     padding:100px;
     text-align: center;
 }
