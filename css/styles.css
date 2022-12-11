@@ -58,7 +58,11 @@ h2{
 
 /*Features*/
 #features {
-    padding: 7% 10%;
+    padding: 7% 5%;
+    z-index:1;
+    position:relative;
+    bottom:300px;
+    background-color: #fff;
 }
 
 .feature-box {
@@ -93,6 +97,8 @@ p {
     text-align: center;
     background-color:#ef8172;
     color: #fff;
+    position:relative;
+    bottom:300px;
 }
 
 .testimonial-image{
@@ -102,6 +108,8 @@ p {
 }
 
 #press{
+    position:relative;
+    bottom:300px;
     background-color:#ef8172;
     text-align: center;
     padding-bottom: 3%;
@@ -119,6 +127,8 @@ p {
 /*Pricing section*/
 
 #pricing{
+    position:relative;
+    bottom:300px;
     padding:100px;
     text-align: center;
 }
