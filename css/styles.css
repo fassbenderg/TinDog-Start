@@ -69,7 +69,7 @@ h2{
 
 h3 {
     font-family: "Montserrat";
-    font-weight: bold;
+    font-weight: 900;/*Black*/
     font-size: 1.5rem;
 }
 
@@ -143,4 +143,31 @@ p {
     .title-col{
         width: 85%;
     }
+}
+
+#cta{
+    padding-top:100px;
+    padding-bottom: 50px;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+#footer{
+    text-align: center;
+    margin-top:50px;
+}
+
+.cta_text{
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+
+.footericon{
+    margin:10px 10px;
+}
+
+.cta_content{
+    width:85%;
+    margin:auto;
 }
