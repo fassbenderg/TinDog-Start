@@ -120,7 +120,7 @@ p {
 /*Pricing section*/
 
 #pricing{
-    padding:100px;
+    padding:5% 7%;
     text-align: center;
 }
 
@@ -146,8 +146,8 @@ p {
 }
 
 #cta{
-    padding-top:100px;
-    padding-bottom: 50px;
+    padding-top:5%;
+    padding-bottom:5%;
     background-color: #ff4c68;
     color: #fff;
     text-align: center;
@@ -159,7 +159,7 @@ p {
 }
 
 .cta_text{
-    padding-bottom: 50px;
+    padding-bottom: 7%;
     font-size: 2.5rem;
 }
 
